@@ -20,9 +20,9 @@ return (
 <>
 <div className="container mx-auto px-4 flex items-center justify-between">
    <div className="flex items-center w-1/2">
-      <div className="w-12 h-12">
+      <div className="w-32 h-16">
          <img
-            src="https://in.bmscdn.com/webin/common/icons/logo.svg"
+            src="https://github.com/ishan-pf/SA-bookmyshow_clone/blob/main/src/components/Navbar/ff.png?raw=true"
             alt="logo"
             className="w-full h-full" />
       </div>
@@ -37,7 +37,7 @@ return (
 
    <div className="flex items-center gap-3">
    <span className="text-gray-400 text-xs flex items-center hover:text-white cursor-pointer	">
-      Bhubaneswar
+      Cuddalore
       <BiChevronDown />
    </span>
    <button className="bg-red-600 text-white text-sm rounded px-2 py-1">

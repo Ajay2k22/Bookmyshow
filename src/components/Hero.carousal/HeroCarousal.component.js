@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react";
+
 import HeroSlider from "react-slick";
 import axios from "axios";
-//Component
-import {NextArrow, PrevArrow} from "./Arrows.component";
 
-
+//component
+import{NextArrow,PrevArrow} from "./Arrow.carousal.js"
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

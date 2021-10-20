@@ -1,9 +1,6 @@
-import React from "react";
-import Poster from "../Poster/poster.component";
-
-import settings from "../../config/PosterCarousal.config";
-
+import Poster from '../Poster/poster';
 import Slider from "react-slick";
+import settings from '../../repeated/settings.js';
 
 const PosterSlider = (props) => {
   return (

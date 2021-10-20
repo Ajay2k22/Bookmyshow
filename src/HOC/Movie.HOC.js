@@ -5,9 +5,9 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 //Layouts
-import MovieLayout from "../layouts/Movie.layout";
+import MovieLayout from "../layout/Movie.layout";
 
-const MovieHOC = ({ component: Component , ...rest }) => {
+const MovieHoc = ({ component: Component , ...rest }) => {
   //component
   //props -> path exact
   return (
@@ -27,4 +27,4 @@ const MovieHOC = ({ component: Component , ...rest }) => {
   );
 };
 
-export default MovieHOC;
+export default MovieHoc;

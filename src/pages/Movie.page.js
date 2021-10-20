@@ -1,10 +1,10 @@
 import React from "react";
-import MovieHero from "../components/MovieHero/MovieHero.component";
 import {BiCameraMovie} from "react-icons/bi";
+import MovieHero from "../components/MovieHero/moviehero.component"
 
 const launchRazorPay = () => {
-  let options = {
-    key: "ur api id",
+  const options = {
+    key: "rzp_test_W3UedsEXhSPXKJ",
     amount: 500*100,
     currency: "INR",
     name: "Book My Show Clone",
@@ -15,7 +15,7 @@ const launchRazorPay = () => {
     },
     theme: {color: "#c4242d"}
   };
-  let rzp = new window.Razorpay(options);
+  const rzp = new window.Razorpay(options);
   rzp.open();
 };
 
